@@ -186,7 +186,7 @@ export default function WhatsAppLinkScreen() {
             <Text style={styles.errorText}>{error}</Text>
           ) : (
             <Text style={styles.helperText}>
-              Include country code (e.g., +1 for US, +44 for UK)
+              Include country code (e.g., +27 South Africa, +1 for US, +44 for UK)
             </Text>
           )}
         </View>
@@ -442,3 +442,4 @@ const styles = StyleSheet.create({
     color: DARK_GRAY,
   },
 });
+
